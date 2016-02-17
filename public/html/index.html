@@ -7,13 +7,14 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
   <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
 
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
 <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
+
+  <nav class="navbar navbar-inverse">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -23,7 +24,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#"></a>
-        </div>
+          </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="#about">About</a></li>
@@ -34,14 +35,14 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-  <br>
+
 
 <div>
-  <div class="container">
+  <div id="content" class="container">
     <div class="row">
-      <div class="col-md-9">
-        <h1>Portfolio Item</h1>
-      </div>
+      <div class="col-md-6">
+        <h1>Portfolio Item <small>Item Subheading</small></h1>
+        </div>
     </div>
   </div>
   <div class="container">
@@ -68,38 +69,47 @@
     <div class="row">
       <div class="col-md-9">
         <h3>Related Projects</h3>
+        <hr>
       </div>
     </div>
   </div>
   <div class="container">
     <div class="row">
       <div class="col-md-3">
+        <div class="thumbnail" >
         <img src="http://placehold.it/500x300">
       </div>
-      <div class="col-md-3">
-        <img src="http://placehold.it/500x300">
       </div>
       <div class="col-md-3">
+        <div class="thumbnail" >
         <img src="http://placehold.it/500x300">
       </div>
+      </div>
       <div class="col-md-3">
+        <div class="thumbnail" >
         <img src="http://placehold.it/500x300">
+      </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail" >
+        <img src="http://placehold.it/500x300">
+      </div>
       </div>
     </div>
   </div>
   <div class="container">
-    <div class="row">
+    <div class="row" class="text-center">
       <div class="col-md-3">
-        <button type="button" class="btn btn-lg btn-primary">Primary</button>
+        <center><button type="button" class="btn btn-lg btn-primary">Primary</button></center>
       </div>
       <div class="col-md-3">
-        <button type="button" class="btn btn-lg btn-success">Success</button>
+        <center><button type="button" class="btn btn-lg btn-success">Success</button></center>
       </div>
       <div class="col-md-3">
-        <button type="button" class="btn btn-lg btn-warning">Warning</button>
+        <center><button type="button" class="btn btn-lg btn-warning">Warning</button></center>
       </div>
       <div class="col-md-3">
-        <button type="button" class="btn btn-lg btn-danger">Danger</button>
+        <center><button type="button" class="btn btn-lg btn-danger">Danger</button></center>
       </div>
     </div>
   </div>
